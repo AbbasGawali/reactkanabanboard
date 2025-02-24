@@ -1,0 +1,26 @@
+.task_column {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 5px;
+}
+.task_column_heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.task_column_icon {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 880px) {
+  .task_column {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .task_column {
+    width: 100%;
+  }
+}

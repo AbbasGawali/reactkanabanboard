@@ -1,0 +1,33 @@
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
+
+.task_column {
+  width: 33.33%;
+  margin: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+  .app_main {
+    padding: 20px 1%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .app_main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .app {
+    grid-template-rows: 200px auto;
+  }
+}
