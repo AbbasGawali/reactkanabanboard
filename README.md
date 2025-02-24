@@ -1,8 +1,20 @@
-# React + Vite
+Simple Kanaban Board Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Properties :
 
-Currently, two official plugins are available:
+1. Create task.
+2. Update task.
+3. Delete task.
+4. Uses Local Storage.
+5. External styles.
+6. No external libraries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Usage :- 
+
+1. git clone https://github.com/AbbasGawali/reactkanabanboard
+2. npm install
+3. npm run dev
+
+Done 
+![alt text](image.png)
